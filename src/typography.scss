@@ -1,0 +1,52 @@
+.HomePage{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+ 
+}
+
+
+.hero-text{
+    color:white;
+    font-size: 2.5rem;
+    span{
+        color: #037fff;
+    }
+
+}
+
+.h-sub-text{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+            margin-right:1rem;
+        .icon{
+         font-size: 2.5rem;  
+        color:#a4acc4;
+         padding: 1px;
+         transition-property: all;
+         transition-duration:.3s ;
+        }
+        .gh:hover{
+            color: rgb(44, 42, 165);
+            border-radius: 50%;
+        }
+        img:hover{
+            background-color: #0A66C2;
+            border-radius: 50%;
+        }
+        .linkedin:hover{
+            color:#0A66C2;
+            border-radius: 50%;
+        }
+
+    }
+
+}

@@ -1,0 +1,108 @@
+.Title{
+    text-transform: uppercase;
+    color:white;
+    position: relative;
+    letter-spacing: 3px;
+    padding-bottom: .8rem;
+    span{
+        position: absolute;
+        top:70%;
+        left:0;
+        font-size: 4.5rem;
+        opacity: .04;
+ }
+    &::before{
+        content: "";
+        bottom: 0;
+        position:absolute;
+        left:0;
+        background-color: #036fff;
+        width: 10rem;
+      
+        height: .3rem;
+        border-radius: 80px;
+     
+    }
+    &::after{
+        content: "";
+        bottom: 0;
+        position:absolute;
+        left:10rem;
+        background-color:rgb(31, 28, 28);
+        width: 6rem;
+      
+        height: .3rem;
+        border-radius: 70px;
+    }
+}
+
+
+.ImageSection{
+
+        margin-top:100px;
+        margin-bottom: 4rem;
+        display: flex;
+        .img{
+                width: 60%;
+                img{
+                    width: 100%;
+                    height:40vh;
+                    object-fit: cover;
+                    
+                }
+        }
+
+        .about-info{
+            margin-left: 1rem;
+            width: 40%;
+            h4{
+                font-size: 2rem;
+                color:#036fff;
+            }
+            .about-text{
+                padding: 1rem 0;
+            }
+        }
+
+}
+
+
+.about-details{
+    .name-details{
+        display: flex;
+        justify-content:space-between;
+    }
+    p{
+        padding:.3rem 0;
+
+    }
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: #036fff;
+    padding: 1rem;
+    color:white;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: 3px;
+    position: relative;
+    &::after{   
+            position:absolute;
+            content: "";
+            width: 10%;
+            height: .3rem;
+            left:0;
+            bottom:0;
+            background-color: rgb(128, 145, 240);
+            transition-property:all ;
+            transition-duration: .9s;
+    }
+
+
+    &:hover::after{
+        width: 100%;
+     }
+}
