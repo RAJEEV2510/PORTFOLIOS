@@ -65,7 +65,20 @@ function Terminals({removepath}) {
      firebase **
      mysql    ***
      mongodb  **        
-    `                                    
+    `   ,
+    "new-movie-download":()=> window.open("http://entertainmentflix.cf","_blank"),
+    "education":()=>`
+    ####Education####
+    
+    DCRUST B.TECH (CSE)`,
+    "my_msg_to_you":()=>`
+          
+      Are you enough smart? 
+      #####then open my website ######  
+      ####through this terminal ######          
+                  
+    `
+
 
                  }}
           descriptions={{
@@ -76,9 +89,12 @@ function Terminals({removepath}) {
               "list-projects":"listing my projects",
               "Intern":"show all my prior interns",
                "whoami":"introduce my self",
-               "Locations":"Show my locations",
-               "tell-me-about-intern-work":"this show my works"
-        
+              "Locations":"Show my locations",
+              "tell-me-about-intern-work":"this show my works",
+              "downloadcv":"downlaod my cv",
+              "new-movie-download":"download movies",
+              "education":"My education",
+              "my_msg_to_you":"---_+!"
           }}
           msg='Type help'
         />
