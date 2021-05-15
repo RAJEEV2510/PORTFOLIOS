@@ -277,7 +277,8 @@ body{
   div{
     border-radius: 20px;
     border:1px solid white;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
     padding: 22px;
     img{
       height: 200px;
@@ -302,6 +303,7 @@ body{
 .map-sect
 {
   margin-top: 30px;
+  margin-left: 20px;
   iframe{
     width: 110%;
   }
@@ -312,13 +314,14 @@ body{
 
   background-color: #191D2B;
   margin-top: 50px;
-  width: 110%;
+  width: 100%;
+  margin-bottom: 100px;
   padding: 20px;
-
+  margin-left: 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  
   div{
     margin-bottom: 20px;
       margin-right: 20px;
@@ -375,7 +378,7 @@ body{
     opacity: .6;
   }
   img{
-    width: 100%;
+    width: 94%;
     height: 35vh;
     object-fit:fill;
   }
