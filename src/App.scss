@@ -342,6 +342,7 @@ body{
   position: absolute;
   top: 100px;
   left: 20px;
+  overflow-x: hidden;
 }
 
 .portfolios-data{
@@ -378,7 +379,7 @@ body{
     opacity: .6;
   }
   img{
-    width: 94%;
+    width: 93%;
     height: 35vh;
     object-fit:fill;
   }
@@ -436,7 +437,7 @@ body{
 }
 .category-btn>.btns{
   padding: 10px;
-  width: 150px;
+  width: 130px;
   font-family: inherit;
   font-weight: 400;
   text-transform: uppercase;
