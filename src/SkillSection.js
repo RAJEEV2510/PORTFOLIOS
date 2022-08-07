@@ -15,8 +15,17 @@ function SkillSection({ skill,progress }) {
         <Circle percent="80" strokeWidth="2" strokeColor="#036fff" />
         <h3>{skill}</h3>
     </div>   
-     <div className="progress-bar">   
+        <div className="progress-bar">   
         
+          <Circle percent="80" strokeWidth="2" strokeColor="#036fff" />
+          <h3>Dotnet</h3>
+        </div>     <div className="progress-bar">
+
+          <Circle percent="80" strokeWidth="2" strokeColor="#036fff" />
+          <h3>Angular</h3>
+        </div>
+        <div className="progress-bar">
+
         <Circle percent="76" strokeWidth="3" strokeColor="#B023CC" />
         <h3>C++</h3>
     </div>   

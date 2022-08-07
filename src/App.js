@@ -14,9 +14,7 @@ function App() {
   const [homepath, sethomepath] = useState("/");
   const [navigationState, setnavigationState] = useState(false);
   useEffect(() => {
-    if (localStorage.getItem("path") == "rm") {
-      sethomepath("rm");
-    }
+
   }, []);
 
   const navigationFunction = () => {
@@ -99,12 +97,12 @@ function App() {
           </Link>
         </div>
       </div>
-      <div className="sidebar">{homepath == "/" ? "" : <Navbar></Navbar>}</div>
+      <div className="sidebar"> <Navbar></Navbar></div>
       <div className="main-content">
         <div className="content">
           <Switch>
             <Route path="/" exact>
-              <Terminals removepath={sethomepath}></Terminals>
+              <Homepage></Homepage>
             </Route>
             <Route path="/homepage">
               <Homepage></Homepage>
